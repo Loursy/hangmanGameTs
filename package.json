@@ -1,0 +1,21 @@
+{
+  "name": "hangmangame-tsc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && npm run copy-data",
+    "copy-data": "cp src/leaderBoard.json dist/leaderBoard.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.2.0",
+    "@types/terminal-kit": "^2.5.7",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "terminal-kit": "^3.1.2"
+  }
+}
